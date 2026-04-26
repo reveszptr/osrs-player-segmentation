@@ -1,23 +1,45 @@
-<<<<<<< HEAD
 # OSRS Player Segmentation
 
-This project uses Old School RuneScape Hiscores data to discover hidden player archetypes using clustering algorithms.
+This project explores player archetypes in Old School RuneScape using public Hiscores data and unsupervised machine learning.
 
-## Objectives
+## Project Goal
 
-- Collect player statistics
-- Clean and preprocess data
-- Apply K-Means clustering
-- Visualize clusters using PCA
-- Interpret player types
+The goal of this project is to discover hidden player groups based on their skill levels and progression patterns.
+
+## Main Research Question
+
+Can meaningful Old School RuneScape player archetypes be identified using clustering methods on Hiscores data?
+
+## Planned Methods
+
+- Data collection from OSRS Hiscores
+- Data cleaning and preprocessing
+- Feature engineering
+- K-Means clustering
+- Cluster evaluation with Elbow Method and Silhouette Score
+- PCA-based visualization
+- Interpretation of player archetypes
 
 ## Tech Stack
 
 - Python
+- Jupyter Notebook
 - pandas
+- numpy
 - scikit-learn
 - matplotlib
-- Jupyter Notebook
-=======
-# osrs-player-segmentation
->>>>>>> f845870013da4ef56a78880fa8fb2f5494732454
+- requests
+
+## Repository Structure
+
+```text
+osrs-player-segmentation/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── src/
+├── images/
+├── README.md
+├── requirements.txt
+└── .gitignore
